@@ -1,0 +1,246 @@
+/* Reset the default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Utility classes */
+/* These are reusable classes */
+.container{
+    max-width: 1900px;
+    margin: auto;
+    overflow: hidden;
+}
+.lead{
+    font-size: 20px;
+}
+p{
+    margin: 10px 0;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-orange{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/* navbar */
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+#navbar a{
+    color: #fff;
+    margin-right: 20px;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    color: #f7c08a;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: #444;
+}
+/* Showcase */
+#showcase{
+    background-image: url(images/showcase.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    font-weight: 1.2em;
+}
+#showcase .showcase-content p{
+    line-height: 1.5em;
+}
+#showcase .showcase-content h1 span{
+    color: white;
+}
+/* Home info */
+#home-info{
+    height: 500px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background-image: url(/Images/photo-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #333;
+    color: white;
+}
+#home-info .info-content .btn{
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 10px;
+}
+/* features */
+.box{
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+}
+/* Footer */
+#main-footer{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  
+}
+/* About Info */
+#about-info{
+    padding: 20px 0;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-left h1{
+    font-size: 40px;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    margin: auto;
+    width: 70%;
+    display: block;
+    border-radius: 50%;
+}
+/* Testimonials */
+#testimonials{
+    height: 600px;
+    background-image: url(/Images/test-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#testimonials .testimonial{
+    padding: 30px 0px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* Contact Us */
+#contacts .contact-details{
+    margin-bottom: 20px;
+}
+
+#contacts form{
+    padding: 5px;
+}
+#contacts h1{
+    font-size: 32px;
+    margin-top: 20px;
+}
+#contacts .container{
+    font-size: 13px;
+}
+#contacts .contact-details label{
+    display: block
+}
+#contacts .contact-details input, #contacts .contact-details textarea{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#contacts .contact-details textarea{
+    height: 200px;
+}
+/* on focus effect to make the form area highlight in a different colour */
+#contacts .contact-details input:focus, #contacts .contact-details textarea:focus{
+    border-color: #f7c08a;
+    outline: none;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.btn:hover{
+   background-color: #f7c08a;
+}
+.bx{
+    height: 400px;
+}
+#contact-info{
+    background-color: black;
+    color: white;
+}
+/* to publish your site do so on netlify.com */
